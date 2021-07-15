@@ -5,6 +5,7 @@ import SocialIcons from './SocialIcons.js';
 import Work from './Work';
 import Contact from './Contact';
 import Splash from './Splash';
+import Footer from './Footer';
 import './components.scss';
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
             <SocialIcons />
             <Work />
             <Contact />
+            <Footer />
         </div>
     )
 }

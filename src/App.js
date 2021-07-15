@@ -17,7 +17,6 @@ function App() {
         <Route exact path='/nucamp' component={NuCamp} />
         <Route exact path='/dogwithin' component={DogWithin} />
       </Switch>
-      <Footer />
     </div>
   );
 }

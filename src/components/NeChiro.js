@@ -8,11 +8,12 @@ import NEC_ABOUT from './images/nec_about.png';
 import NEC_SERVICES from './images/nec_services.png';
 import NEC_MODAL from './images/nec_login_modal.png';
 import NEC_CONTACT from './images/nec_contact.png';
+import ProjectFooter from './ProjectFooter.js';
 import './projects.scss';
 
 export default function NeChiro() {
     return (
-        <div className="project-page">
+        <div className="project-page" id="top">
             <ProjectNav />
             <h2>North Seattle Chiropractic</h2>
             <div className="project-wrapper">
@@ -95,8 +96,9 @@ export default function NeChiro() {
                         </div>
                     </div>
                 </div>
-
+                <div className="project-divider"></div>
             </div>
+            <ProjectFooter />
         </div>
     )
 }
