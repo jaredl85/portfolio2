@@ -100,11 +100,17 @@ h4 {
         right: 15px;
         padding: 2px 7px 0px 6px;
         top: 10px;
-        color: $lightAccent;
+        color: $lightBase;
         background-color: $darkBase;
         font-size: 1.4rem;
-        border: 2px solid $lightAccent;
+        border: 2px solid $lightBase;
         display: none;
+        transition: 0.5s;
+    }
+    .nav-btn:hover {
+        color: $lightAccent;
+        border: 2px solid $lightAccent;
+        transition: 0.5s;
     }
 }
 
@@ -127,11 +133,17 @@ h4 {
         li {
             border: 1px solid $mainColor;
             padding: 15px 0;
-            width: 100%;
+            width: 105%;
             text-align: center;
+            transition: 0.5s;
             li a {
-               
+               display: block;
+               width: 100%;
             }
+        }
+        li:hover {
+            background-color: $mainColor;
+            transition: 0.5s;
         }
         }
         .nav-btn {
@@ -813,7 +825,7 @@ h4 {
 @media (max-width: $breakpoint-tablet) {
     
     .project-page {
-        padding-bottom: 40px;
+        padding-bottom: 0
         h2 {
             font-size: 2.5rem;
             margin-bottom: 10px;
@@ -845,10 +857,38 @@ h4 {
             width: 100%;
             display: flex;
             // justify-content: space-between;
-            flex-direction: row;
+           // flex-direction: column-reverse;
             flex-wrap: wrap;
+            .project-col {
+                margin-bottom: 40px;
+            }
+            .r-1 {
+                order: 1;
+            }
+            .r-2 {
+                order: 2;
+            }
+            .r-3 {
+                order: -1;
+            }
+            .r-4 {
+                order: 4;
+            }
+            .r-5 {
+                order: 5;
+            }
+            .r-6 {
+                order: 6;
+            }
+            .r-7 {
+                order: 7;
+            }
+            .r-8 {
+                order: 8;
+                margin-bottom: 0px;
+            }
         }
-        
+
         .project-divider {
             display: none;
             width: 100%;
@@ -861,7 +901,7 @@ h4 {
         .project-box {
             // margin: 20px;
             overflow:hidden;
-            margin-bottom: 40px;
+            margin-bottom: 0;
             p {
                 font-size: 1.2rem;
                 display: block;

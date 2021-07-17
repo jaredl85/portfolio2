@@ -7,10 +7,10 @@ import { SiReactrouter } from 'react-icons/si';
 import { FaBootstrap } from 'react-icons/fa';
 import { SiRedux } from 'react-icons/si';
 import { SiJavascript } from 'react-icons/si';
-import NC_ABOUT from './images/nc_about.png';
-import NC_DIR from './images/nc_dir.png';
-import NC_MODAL from './images/nc_modal.png';
-import NC_CONTACT from './images/nc_contact.png';
+import PORT_ABOUT from './images/port_about.png';
+import PORT_WORK from './images/port_work.png';
+import PORT_HOME from './images/port_home.png';
+import PORT_CONTACT from './images/port_contact.png';
 import ProjectFooter from './ProjectFooter.js';
 import './projects.scss';
 
@@ -22,7 +22,7 @@ export default function Portfolio() {
             <div className="project-wrapper">
 
                 <div className="project-row">
-                    <div className="project-col">
+                    <div className="project-col r-1">
                         <div className="project-box">
                             <h3>Project Goal</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum vulputate quam,
@@ -34,20 +34,20 @@ export default function Portfolio() {
                                 convallis. Quisque convallis felis leo, sit amet mattis lectus fermentum sed.</p>
                         </div>
                     </div>
-                    <div className="project-col">
+                    <div className="project-col r-2">
                         <div className="project-box">
-                            <img src={NC_ABOUT} />
+                            <img src={PORT_HOME} />
                         </div>
                     </div>
                 </div>
                 <div className="project-divider"></div>
                 <div className="project-row">
-                    <div className="project-col">
+                    <div className="project-col r-4">
                         <div className="project-box">
-                            <img src={NC_DIR} />
+                            <img src={PORT_WORK} />
                         </div>
                     </div>
-                    <div className="project-col">
+                    <div className="project-col r-3">
                         <div className="project-box">
                             <h3>Technologies Used</h3>
                             <p>
@@ -66,7 +66,7 @@ export default function Portfolio() {
                 </div>
                 <div className="project-divider"></div>
                 <div className="project-row">
-                    <div className="project-col">
+                    <div className="project-col r-5">
                         <div className="project-box">
                             <h3>Process and Challenges</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum vulputate quam,
@@ -78,24 +78,24 @@ export default function Portfolio() {
                                 convallis. Quisque convallis felis leo, sit amet mattis lectus fermentum sed.</p>
                         </div>
                     </div>
-                    <div className="project-col">
+                    <div className="project-col r-6">
                         <div className="project-box">
-                            <img src={NC_MODAL} />
+                            <img src={PORT_ABOUT} />
                         </div>
                     </div>
                 </div>
                 <div className="project-divider"></div>
                 <div className="project-row">
-                    <div className="project-col">
+                    <div className="project-col r-8">
                         <div className="project-box">
-                            <img src={NC_CONTACT} />
+                            <img src={PORT_CONTACT} />
                         </div>
                     </div>
-                    <div className="project-col">
+                    <div className="project-col r-7">
                         <div className="project-box">
                             <h3>Outcome</h3>
                             <p><a href="#" className="project-page-link">See the final project</a></p>
-                            <p><a href="#" className="project-page-link project-page-github">Check out the code</a></p>
+                            <p><a href="https://github.com/jaredl85/portfolio2" target="_blank" className="project-page-link project-page-github">Check out the code</a></p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum vulputate quam,
                                 id tempor velit interdum ac. Nullam risus orci, consectetur ac tristique nec, venenatis
                                 in dui. Praesent vel varius tellus, nec tristique turpis.</p>

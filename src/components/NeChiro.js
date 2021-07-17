@@ -19,7 +19,7 @@ export default function NeChiro() {
             <div className="project-wrapper">
 
                 <div className="project-row">
-                    <div className="project-col">
+                    <div className="project-col r-1">
                         <div className="project-box">
                             <h3>Project Goal</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum vulputate quam,
@@ -31,7 +31,7 @@ export default function NeChiro() {
                                 convallis. Quisque convallis felis leo, sit amet mattis lectus fermentum sed.</p>
                         </div>
                     </div>
-                    <div className="project-col">
+                    <div className="project-col r-2">
                         <div className="project-box">
                             <img src={NEC_ABOUT} />
                         </div>
@@ -39,12 +39,12 @@ export default function NeChiro() {
                 </div>
                 <div className="project-divider"></div>
                 <div className="project-row">
-                    <div className="project-col">
+                    <div className="project-col r-4">
                         <div className="project-box">
                             <img src={NEC_SERVICES} />
                         </div>
                     </div>
-                    <div className="project-col">
+                    <div className="project-col r-3">
                         <div className="project-box">
                             <h3>Technologies Used</h3>
                             <p>
@@ -60,7 +60,7 @@ export default function NeChiro() {
                 </div>
                 <div className="project-divider"></div>
                 <div className="project-row">
-                    <div className="project-col">
+                    <div className="project-col r-5">
                         <div className="project-box">
                             <h3>Process and Challenges</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum vulputate quam,
@@ -72,7 +72,7 @@ export default function NeChiro() {
                                 convallis. Quisque convallis felis leo, sit amet mattis lectus fermentum sed.</p>
                         </div>
                     </div>
-                    <div className="project-col">
+                    <div className="project-col r-6">
                         <div className="project-box">
                             <img src={NEC_MODAL} />
                         </div>
@@ -80,16 +80,16 @@ export default function NeChiro() {
                 </div>
                 <div className="project-divider"></div>
                 <div className="project-row">
-                    <div className="project-col">
+                    <div className="project-col r-8">
                         <div className="project-box">
                             <img src={NEC_CONTACT} />
                         </div>
                     </div>
-                    <div className="project-col">
+                    <div className="project-col r-7">
                         <div className="project-box">
                             <h3>Outcome</h3>
                             <p><a href="#" className="project-page-link">See the final project</a></p>
-                            <p><a href="#" className="project-page-link project-page-github">Check out the code</a></p>
+                            <p><a href="https://github.com/jaredl85/nechiro" target="_blank" className="project-page-link project-page-github">Check out the code</a></p>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fermentum vulputate quam,
                                 id tempor velit interdum ac. Nullam risus orci, consectetur ac tristique nec, venenatis
                                 in dui. Praesent vel varius tellus, nec tristique turpis.</p>
