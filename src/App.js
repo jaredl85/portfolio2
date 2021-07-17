@@ -1,5 +1,4 @@
 import Home from './components/Home.js';
-import Footer from './components/Footer.js';
 import NeChiro from './components/NeChiro.js';
 import Portfolio from './components/Portfolio.js';
 import DogWithin from './components/DogWithin.js';

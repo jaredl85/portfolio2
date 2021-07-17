@@ -61,15 +61,21 @@ h4 {
 .nav {
     height: 60px;
     width: 100%;
-    background-color: rgba($color: #08242F, $alpha: 0.9);
+    background-color: $darkBase;
     border-bottom: 2px solid $mainColor;
     position: fixed;
     z-index: 1000;
-    ul {
+    .list {
         list-style: none;
+        margin-right: 60px;
         float: right;
-        margin-right: 50px;
-        margin-top: 20px;
+        list-style-type: none;
+        background-color: rgba($color: #08242F, $alpha: 0.9);
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
         li {
             float: left;
             margin-left: 30px;
@@ -89,10 +95,56 @@ h4 {
             transition: 0.5s;
         }
     }
+    .nav-btn {
+        position: absolute;
+        right: 15px;
+        padding: 2px 7px 0px 6px;
+        top: 10px;
+        color: $lightAccent;
+        background-color: $darkBase;
+        font-size: 1.4rem;
+        border: 2px solid $lightAccent;
+        display: none;
+    }
 }
+
+/*--- RESPONSIVE NAVBAR ---*/
+
+@media (max-width: $breakpoint-tablet) {
+    .nav {
+        margin: 0;
+        padding: 0;
+    .list {
+        flex-direction: column;
+        height: auto;
+        width: 105%;
+        margin: 0;
+        margin-left: -15px;
+        padding: 0;
+        float: left;
+        background-color: $darkBase;
+        padding-top: 60px;
+        li {
+            border: 1px solid $mainColor;
+            padding: 15px 0;
+            width: 100%;
+            text-align: center;
+            li a {
+               
+            }
+        }
+        }
+        .nav-btn {
+            display: block;
+        }
+    }
+}
+
 
 .home {
     position: relative;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 /*------------*/
