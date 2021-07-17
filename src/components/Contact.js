@@ -34,7 +34,7 @@ class Contact extends Component {
             <div className="contact" id="contact">
                 <h2>Contact</h2>
 
-                <div className="form-wrapper">
+
                     <LocalForm className="contact-form" onSubmit={values => this.handleSubmit(values)}>
                         <Row className="form-row">
                             <Label class="label" htmlFor="name" md={2}>Name</Label>
@@ -103,7 +103,6 @@ class Contact extends Component {
                         </Row>
                     </LocalForm>
                 </div>
-            </div>
         );
     }
 }
