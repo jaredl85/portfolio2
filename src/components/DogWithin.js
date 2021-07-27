@@ -1,6 +1,5 @@
 import React from 'react';
 import ProjectNav from './ProjectNav';
-import { FaBootstrap } from 'react-icons/fa';
 import { FaCss3 } from 'react-icons/fa';
 import { FaHtml5 } from 'react-icons/fa';
 import { SiJavascript } from 'react-icons/si';
@@ -34,7 +33,7 @@ export default function NeChiro() {
                     </div>
                     <div className="project-col r-2">
                         <div className="project-box">
-                            <img src={TWD_ABOUT} />
+                            <img src={TWD_ABOUT} alt="about page" />
                         </div>
                     </div>
                 </div>
@@ -42,7 +41,7 @@ export default function NeChiro() {
                 <div className="project-row">
                     <div className="project-col r-4">
                         <div className="project-box">
-                            <img src={TWD_SERVICES} />
+                            <img src={TWD_SERVICES} alt="services page"/>
                         </div>
                     </div>
                     <div className="project-col r-3">
@@ -75,7 +74,7 @@ export default function NeChiro() {
                     </div>
                     <div className="project-col r-6">
                         <div className="project-box">
-                            <img src={TWD_FAQ} />
+                            <img src={TWD_FAQ} alt="faq page"/>
                         </div>
                     </div>
                 </div>
@@ -83,7 +82,7 @@ export default function NeChiro() {
                 <div className="project-row">
                     <div className="project-col r-8">
                         <div className="project-box">
-                            <img src={TWD_CONTACT} />
+                            <img src={TWD_CONTACT} alt="contact page"/>
                         </div>
                     </div>
                     <div className="project-col r-7">
